@@ -6,7 +6,33 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
     state: {
-        partidos: [],
+        partidos: [
+            {
+                id: 'partido1',
+                Color: 'blue darken-4'
+            },
+            {
+                id: 'partido2',
+                Color: 'red darken-4'
+            },
+            {
+                id: 'partido3',
+                Color: 'yellow darken-3'
+            },
+            {
+                id: 'partido4',
+                Color: 'teal darken-3'
+            },
+            {
+                id: 'partido5',
+                Color: 'deep-orange darken-2'
+            },
+            {
+                id: 'partido6',
+                Color: 'light-blue darken-2'
+            },
+
+        ],
         mesas: []
     },
     mutations: {
