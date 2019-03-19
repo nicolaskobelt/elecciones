@@ -26,8 +26,29 @@
     <v-content>
         <router-view></router-view>
     </v-content>
-  </v-app>
 
+      <v-footer
+          height="auto"
+          color="deep-purple darken-4"
+      >
+           <v-layout
+                 justify-center
+                 row
+                 wrap
+                 >
+                  <v-flex
+                          color="deep-purple darken-4"
+                          lighten-2
+                          py-3
+                          text-xs-center
+                          white--text
+                          xs12
+                  >
+                      &copy;2019 — <strong>La Señal FM</strong>
+                  </v-flex>
+              </v-layout>
+          </v-footer>
+  </v-app>
 </template>
 
 <script>
@@ -36,12 +57,12 @@ export default {
     return {
         SideNav: false,
         menuItem: [
-            {icon: 'bar_chart', title:'Resultados generales', link: '/generales'},
+            {icon: 'bar_chart', title:'Resultados generales', link: '/'},
             {icon: 'show_chart', title:'Resultados por mesa', link: '/pormesa'},
             {icon: 'mail', title: 'Contacto', link: '/contacto'},
             {icon: 'help', title: 'Help', link: '/help'}
 
-        ]
+        ],
     }
   },
   name: 'App'
