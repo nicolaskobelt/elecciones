@@ -17,12 +17,12 @@
                                 <v-card-title primary-title>
                                     <div>
                                         <div class="headline">Mesa: {{mesa.id}}</div>
-                                        <div>Partido1: {{mesa.partido1}}</div>
-                                        <div>Partido2: {{mesa.partido2}}</div>
-                                        <div>Partido3: {{mesa.partido3}}</div>
-                                        <div>Partido4: {{mesa.partido4}}</div>
-                                        <div>Partido5: {{mesa.partido5}}</div>
-                                        <div>Partido6: {{mesa.partido6}}</div>
+                                        <div>UPC: {{mesa.partido1}}</div>
+                                        <div>Frente de Izquierda: {{mesa.partido2}}</div>
+                                        <div>Cambiemos: {{mesa.partido3}}</div>
+                                        <div>Accion Vecinal: {{mesa.partido4}}</div>
+                                        <div>Unite por la Libertad: {{mesa.partido5}}</div>
+                                        <div>Unidad Ciudadana: {{mesa.partido6}}</div>
                                     </div>
                                 </v-card-title>
                             </v-flex>

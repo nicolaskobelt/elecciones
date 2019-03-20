@@ -9,7 +9,7 @@ export const store = new Vuex.Store({
         partidos: [
             {
                 id: 'partido1',
-                Color: 'blue darken-4'
+                Color: 'blue darken-4',
             },
             {
                 id: 'partido2',
@@ -70,12 +70,12 @@ export const store = new Vuex.Store({
                     for (let key in obj) {
                         Mesas.push({
                             id: obj[key].id,
-                            partido1: obj[key].partido1,
-                            partido2: obj[key].partido2,
-                            partido3: obj[key].partido3,
-                            partido4: obj[key].partido4,
-                            partido5: obj[key].partido5,
-                            partido6: obj[key].partido6,
+                            partido1: obj[key].upc,
+                            partido2: obj[key].izquierda,
+                            partido3: obj[key].cambiemos,
+                            partido4: obj[key].accion,
+                            partido5: obj[key].unite,
+                            partido6: obj[key].unidad,
                         })
                     }
                     commit('mesasCargadas', Mesas)
