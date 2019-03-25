@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && webpack",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node src/main.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "chart.js": "^2.7.3",
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.3",
     "@vue/cli-plugin-eslint": "^3.0.3",
-    "@vue/cli-service": "^3.0.3",
+    "@vue/cli-service": "^3.5.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
@@ -56,5 +56,26 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaskobelt/elecciones.git"
+  },
+  "keywords": [
+    "elecciones",
+    "La",
+    "Senal",
+    "FM"
+  ],
+  "author": "nicolaskobelt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaskobelt/elecciones/issues"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "homepage": "https://github.com/nicolaskobelt/elecciones#readme"
 }
