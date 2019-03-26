@@ -78,8 +78,7 @@
     "url": "https://github.com/nicolaskobelt/elecciones/issues"
   },
   "engines": {
-    "node": "10.15.3",
-    "npm": "6.9.0"
+    "node": "10.15.3"
   },
   "homepage": "https://github.com/nicolaskobelt/elecciones#readme"
 }
