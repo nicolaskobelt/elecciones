@@ -59,8 +59,7 @@ export default {
         menuItem: [
             {icon: 'bar_chart', title:'Resultados generales', link: '/'},
             {icon: 'show_chart', title:'Resultados por mesa', link: '/pormesa'},
-            {icon: 'mail', title: 'Contacto', link: '/contacto'},
-            {icon: 'help', title: 'Help', link: '/help'}
+            {icon: 'mail', title: 'Contacto', link: '/contacto'}
 
         ],
     }

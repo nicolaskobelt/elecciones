@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Generales from '@/components/Generales'
 import PorMesa from '@/components/PorMesa'
 import Contacto from '@/components/Contacto'
-import Help from '@/components/Help'
 
 Vue.use(Router)
 
@@ -24,12 +23,6 @@ export default new Router({
             name: 'Contacto',
             component: Contacto
         },
-        {
-            path: '/help',
-            name: 'Help',
-            component: Help
-        },
-
     ],
     mode: 'history'
 })
