@@ -15,8 +15,6 @@
                     <v-card-actions>
                         <v-btn
                                 flat dark
-                                target="_blank"
-                                rel="noopener noreferrer"
                                 href="https://wa.me/5493546450736"
                         >
                                 Enviar Mensaje!</v-btn>
@@ -35,8 +33,6 @@
                     <v-card-actions>
                         <v-btn
                                 flat dark
-                                target="_blank"
-                                rel="noopener noreferrer"
                                 href="https://m.me/lasenalfm"
                         >
                             Enviar Mensaje!</v-btn>
@@ -58,8 +54,6 @@
                     <v-card-actions>
                         <v-btn
                                 flat dark
-                                target="_blank"
-                                rel="noopener noreferrer"
                                 href="mailto:info@fm977.com.ar"
                         >
                             Enviar Mail!</v-btn>
