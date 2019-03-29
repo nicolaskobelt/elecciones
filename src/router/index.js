@@ -23,6 +23,11 @@ export default new Router({
             name: 'Contacto',
             component: Contacto
         },
+        {
+            path: 'https://eleccionesfm.herokuapp.com/contacto',
+            name: 'Contacto',
+            component: Contacto
+        }
     ],
     mode: 'history'
 })
