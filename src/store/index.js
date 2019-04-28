@@ -9,7 +9,7 @@ export const store = new Vuex.Store({
         partidos: [
             {
                 id: 'partido1',
-                Color: 'blue darken-4',
+                Color: 'blue darken-1',
             },
             {
                 id: 'partido2',
@@ -17,21 +17,20 @@ export const store = new Vuex.Store({
             },
             {
                 id: 'partido3',
-                Color: 'yellow darken-3'
+                Color: 'yellow darken-2'
             },
             {
                 id: 'partido4',
-                Color: 'teal darken-3'
+                Color: 'green'
             },
             {
                 id: 'partido5',
-                Color: 'deep-orange darken-2'
+                Color: 'orange'
             },
             {
                 id: 'partido6',
-                Color: 'light-blue darken-2'
+                Color: 'cyan darken-2'
             },
-
         ],
         mesas: []
     },
